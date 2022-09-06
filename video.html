@@ -29,7 +29,7 @@
           <a href="index.html" class="navigation__link">Главная</a>
         </li>
         <li class="navigation__item">
-          <a  class="navigation__link navigation__link-active">Видео</a>
+          <a class="navigation__link navigation__link-active">Видео</a>
         </li>
         <li class="navigation__item">
           <a href="photo.html" class="navigation__link">Фото</a>
@@ -81,13 +81,22 @@
     <div class="slider-main swiper">
       <ul class="slider-main__list swiper-wrapper">
         <li class="slider-main__item swiper-slide">
-          <img class="slider-main__img " src="photo/photo01.jpg" alt="фото1">
+          <video class="slider-main__video" poster="video/trailer01.jpg">
+            <source src="video/trailer01.webm" type="video/webm">
+            <source src="video/trailer01.mp4" type="video/mp4">
+          </video>
         </li>
         <li class="slider-main__item swiper-slide">
-          <img class="slider-main__img " src="photo/photo02.jpg" alt="фото2">
+          <video class="slider-main__video" controls poster="video/trailer02.jpg">
+            <source src="video/trailer02.webm" type="video/webm">
+            <source src="video/trailer02.mp4" type="video/mp4">
+          </video>
         </li>
         <li class="slider-main__item swiper-slide">
-          <img class="slider-main__img " src="photo/photo03.jpg" alt="фото3">
+          <video class="slider-main__video" poster="video/trailer03.jpg">
+            <source src="video/trailer03.webm" type="video/webm">
+            <source src="video/trailer03.mp4" type="video/mp4">
+          </video>
         </li>
       </ul>
     </div>
@@ -98,13 +107,13 @@
       <div class="slider-thumbs swiper">
         <ul class="slider-thumbs__list swiper-wrapper">
           <li class="slider-thumbs__item swiper-slide">
-            <img src="photo/photo01-thumbs.jpg" alt="превью фото1" class="slider-thumbs__img" width="260" height="100">
+            <img src="video/trailer01.jpg" alt="превью фото1" class="slider-thumbs__img" width="260" height="100">
           </li>
           <li class="slider-thumbs__item swiper-slide">
-            <img src="photo/photo02-thumbs.jpg" alt="превью фото2" class="slider-thumbs__img" width="260" height="100">
+            <img src="video/trailer02.jpg" alt="превью фото2" class="slider-thumbs__img" width="260" height="100">
           </li>
           <li class="slider-thumbs__item swiper-slide">
-            <img src="photo/photo03-thumbs.jpg" alt="превью фото3" class="slider-thumbs__img" width="260" height="100">
+            <img src="video/trailer03.jpg" alt="превью фото3" class="slider-thumbs__img" width="260" height="100">
           </li>
         </ul>
       </div>
